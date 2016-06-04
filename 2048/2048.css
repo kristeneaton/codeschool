@@ -1,0 +1,46 @@
+#board {
+}
+
+.row {
+	overflow: auto;
+}
+
+.tile {
+	font-size: 40px;
+	background: #999;
+	float: left;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	margin: 2px;
+	width: 100px;
+
+}
+
+.tile-2 {
+	background: #c99;
+}
+
+.tile-4 {
+	background: #9cc;
+}
+
+.tile-8 {
+	background: #666;
+}
+
+.tile-16 {
+	background: #555;
+}
+
+.tile-32 {
+	background: #2cc;
+}
+
+.tile-64 {
+	background: #F88;
+}
+
+.tile-128 {
+	background: #99F;
+}

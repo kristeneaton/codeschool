@@ -1,0 +1,29 @@
+#pid #sid{
+	color:red;
+}
+
+p.pclass span#sid.sclass{
+	color:green;
+}
+
+input, textarea{
+	display: block;
+	border: 1px solid #ccc;
+	width: 200px;
+	height: 20px;
+	border-radius: 5px;
+}
+
+input:focus, textarea:focus{
+	background-color: #9F9;
+	border: 0px;
+}
+
+[name="email"] {
+	width: 300px;
+
+}
+
+p:last-child:before{
+	content: 'This is our disclaimer!';
+}
